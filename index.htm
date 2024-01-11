@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+        <button class="logo"><img src="image/img_logo.png"></button>
+      <ul>
+        <li><a class="btn" href="#">滑雪</a></li>
+        <li><a class="btn" href="#">游永</a></li>
+        <li><a class="btn" href="#">爬山</a></li>
+        <li><a class="btn" href="#">羽球</a></li>
+        <li><a class="btn" href="#">搜尋</a></li>
+      </ul>
+        </nav>
+    </header>
+      <main>
+        <h1 class="main_title">旅行 </h1>
+        <p class="main_intro">Every year, traveling abroad is my way to recharge and nourish myself. It's after coming back that I find the energy to work hard again!</p> 
+     </main>
+	<section class="banner">
+    <div class="banner-content">
+        <div><img src="image/img_main01.jpg" width="900" height="350" alt=""/> </div>
+        <div><img src="image/img_main02.JPG" width="900" height="350" alt=""/> </div>
+        <div><img src="image/img_main03.JPG" width="900" height="350" alt=""/> </div>
+        <div><img src="image/img_main04.JPG" width="900" height="350" alt=""/> </div>
+        <div><img src="image/img_main05.JPG" width="900" height="350" alt=""/> </div>
+    </div>
+  </section>
+  <section>
+    <div class="card one">
+        <div class="card_image"></div>
+        <img src="image/img_card01.jpg" alt="滑雪">
+        <div class="card_intro">
+           <h3>滑雪</h3>
+           <p>Little Ding-Done Science Theme Park, learned snowboarding in Taiwan and it became one of my favorite sports!</p>
+        </div>
+    </div>
+    <div class="card two">
+        <div class="card_image"></div>
+        <img src="image/img_card02.jpg" alt="游永">
+        <div class="card_intro">
+          <h3>游永 </h3>
+           <p> It gets too hot in the summer, so swimming is a must. It gets too hot in the summer, so swimming is a must. </p>
+        </div>
+    </div>
+    <div class="card three">
+        <div class="card_image"></div>
+        <img src="image/img_card03.jpg" alt="爬山">
+        <div class="card_intro">
+          <h3>爬山</h3>
+           <p>Hiking in the autumn feels amazing , I've been exploring various smaller mountains around Taiwan. </p>
+        </div>
+    </div>
+    <div class="card four">
+        <div class="card_image"></div>
+        <img src="image/img_card04.jpg" alt="羽球">
+        <div class="card_intro">
+            <h3>羽球</h3>
+          <p>An exciting badminton game can suppress stress and make you happy and energetic.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+   <p> Copyright 2023 Succulent Gardening Workshop. All Rights Reserved</p>
+</footer>
+</div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+<script>
+$('.banner-content').bxSlider({
+    auto: true,
+    stopAutoOnClick: true,
+    pager: true,
+    slideWidth: 900
+  });
+</script>
+</body>
+</html>
+
+
+
